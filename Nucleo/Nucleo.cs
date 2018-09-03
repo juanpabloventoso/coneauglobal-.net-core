@@ -14,7 +14,8 @@ namespace Nucleo
         //
         public static bool ValidarTimestamp(string ts)
         {
-            return Math.Abs(DateTime.Now.Ticks - Convert.ToInt64(ts)) <= 2000000000;
+            // REMOVED FOR SECURITY PURPOSES
+            return true;
         }
 
         //
@@ -22,7 +23,8 @@ namespace Nucleo
         //
         public static bool ValidarToken(string token, string cadena)
         {
-            return MD5Hash(cadena) == token.ToLower();
+            // REMOVED FOR SECURITY PURPOSES
+            return true;
         }
 
         //
