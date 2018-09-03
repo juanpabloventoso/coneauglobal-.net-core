@@ -206,8 +206,8 @@ namespace Nucleo.Red
     {
 
         // Valores de conexión al dominio ADCONEAU
-        private static string DominioCONEAU_Usuario = "ADCONEAU\\AdminAD";
-        private static string DominioCONEAU_Password = "USRobotic";
+        private static string DominioCONEAU_Usuario = "USER";
+        private static string DominioCONEAU_Password = "PASSWORD";
 
         //
         // Conectar a una ubicación de la red local con autenticación
